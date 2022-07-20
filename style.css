@@ -197,15 +197,16 @@ img {
     align-items: center;
 }
 
-.nav__logo,
 .nav__toggle {
     color: var(--title-color);
     font-weight: var(--font-medium);
     
 }
 
-.nav__logo:hover {
-    color: var(--first-color);
+.nav__logo {
+    width: 55px;
+    padding-top: 10px;
+    border-radius: 50%;
 }
 
 .nav__toggle {
